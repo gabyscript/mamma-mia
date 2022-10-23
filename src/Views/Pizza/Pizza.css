@@ -1,0 +1,221 @@
+@media (max-width: 575px) {
+    .pizza-section {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #c0c7c324;
+        
+    }
+    
+    .pizza-div {
+        width: 90vw;
+        height: 90vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;    
+        border: 1px solid rgb(0,0,0,45%);
+        border-radius: 25px;
+        
+    }
+    
+    .detalle-img {
+        width: 300px;
+        height: 200px;
+        background-size: cover;
+        border-radius: 25px;
+    }
+    
+    .detalle-info {
+        width: 30vw;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .pizza-desc {
+        text-align: justify;
+    }
+    
+    .detalle-ingredientes {
+        width: 20vw;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .detalle-nombre-precio {
+        width: 20vw;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .detalle-button {
+        height: 16vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .agregar-button, .menu-button {
+        width: 245px;
+        height: 45px;
+        border-radius: 25px;
+        box-shadow: 0 2px 4px 0 rgb(0,0,0,15%);  
+        border: 1px solid rgb(0,0,0,15%);
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .carrito-button {
+        background-color: #b4000f;
+        color: #f2f2f2;
+    }
+    .carrito-button:hover {
+        cursor: pointer;
+        box-shadow: 0 2px 4px 0 rgb(0,0,0,35%)
+    }
+    
+    .menu-button {
+        background-color: #597718;
+        color: #f2f2f2;
+    }
+    
+    .menu-button:hover {
+        cursor: pointer;
+        box-shadow: 0 2px 4px 0 rgb(0,0,0,35%)
+    }
+    
+    .cantidad-select {
+        width: 6vw;
+        height: 4vh;
+        border-radius: 25px;
+        box-shadow: 0 2px 4px 0 rgb(0,0,0,15%);  
+        border: 1px solid rgb(0,0,0,15%);
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        
+    }
+    
+}
+
+
+.pizza-section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0c7c324;
+    
+}
+
+.pizza-div {
+    width: 80vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;    
+    border: 1px solid rgb(0,0,0,45%);
+    border-radius: 25px;
+    
+}
+
+.detalle-img {
+    width: 600px;
+    height: 400px;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.detalle-info {
+    width: 30vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pizza-desc {
+    text-align: justify;
+}
+
+.detalle-ingredientes {
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.detalle-nombre-precio {
+    width: 20vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.detalle-button {
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.agregar-button, .menu-button {
+    width: 245px;
+    height: 45px;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px 0 rgb(0,0,0,15%);  
+    border: 1px solid rgb(0,0,0,15%);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.agregar-button {
+    background-color: #b4000f;
+    color: #f2f2f2;
+}
+.agregar-button:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgb(0,0,0,35%)
+}
+
+.menu-button {
+    background-color: #597718;
+    color: #f2f2f2;
+}
+
+.menu-button:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgb(0,0,0,35%)
+}
+
+.cantidad-select {
+    width: 6vw;
+    height: 4vh;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px 0 rgb(0,0,0,15%);  
+    border: 1px solid rgb(0,0,0,15%);
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    
+}

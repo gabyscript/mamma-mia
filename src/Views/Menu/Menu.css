@@ -1,0 +1,414 @@
+@media (max-width: 575.99px) {
+
+    .banner-section {
+        width: 100vw;
+        height: 50vh;
+        background-image: url('https://i.postimg.cc/dtshp57h/pizza.jpg');
+        background-size: cover;
+    }
+
+    .menu-section {
+        width: 100vw;
+        height: 220vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #c0c7c324;
+    }
+
+    .menu-section-div {
+        width: 80vw;
+        height: 190vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 4vh;
+        
+    }
+
+    /*Card pizza*/
+    .pizza-card {
+        width: 180px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;    
+        border-radius: 25px;
+        border: 1px solid rgb(0,0,0,45%);
+        background-color: #f3f3f3;
+    }
+
+    .pizza-img {
+        width: 160px;
+        height: 120px;
+        background-size: cover;
+        background-position: no-repeat;
+        border-radius: 25px;
+        text-align: center;
+    }
+    .pizza-info {
+        width: 245px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 13px;
+    }
+    
+    .pizza-buttons {
+        width: 245px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .desc-button, .carrito-button {
+        width: 120px;
+        height: 30px;
+        border-radius: 25px;
+        box-shadow: 0 2px 4px 0 rgb(0,0,0,15%);  
+        border: 1px solid rgb(0,0,0,15%);
+        font-size: 10px;
+        font-weight: 500;
+    }
+    
+    .desc-button {
+        background-color: #597718;
+        color: #f2f2f2;
+    }
+    
+    .carrito-button {
+        background-color: #b4000f;
+        color: #f2f2f2;
+    }
+    
+    .desc-button:hover {
+        cursor: pointer;
+        box-shadow: 0 2px 4px 0 rgb(0,0,0,45%)
+    }
+    
+    .carrito-button:hover {
+        cursor: pointer;
+        box-shadow: 0 2px 4px 0 rgb(0,0,0,45%)
+    }
+    
+}
+
+@media (min-width: 576px) {
+
+    .banner-section {
+        width: 100vw;
+        height: 50vh;
+        background-image: url('https://i.postimg.cc/dtshp57h/pizza.jpg');
+        background-size: cover;
+    }
+
+    .menu-section {
+        width: 100vw;
+        height: 240vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #c0c7c324;
+    }
+
+    .menu-section-div {
+        width: 80vw;
+        height: 210vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 4vh;
+        
+    }
+
+    /*Card pizza*/
+    .pizza-card {
+        width: 200px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;    
+        border-radius: 25px;
+        border: 1px solid rgb(0,0,0,45%);
+        background-color: #f3f3f3;
+    }
+
+    .pizza-img {
+        width: 160px;
+        height: 120px;
+        background-size: cover;
+        background-position: no-repeat;
+        border-radius: 25px;
+        text-align: center;
+    }
+    .pizza-info {
+        width: 245px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 13px;
+    }
+    
+    .pizza-buttons {
+        width: 245px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .desc-button, .carrito-button {
+        width: 120px;
+        height: 30px;
+        border-radius: 25px;
+        box-shadow: 0 2px 4px 0 rgb(0,0,0,15%);  
+        border: 1px solid rgb(0,0,0,15%);
+        font-size: 10px;
+        font-weight: 500;
+    }
+    
+    .desc-button {
+        background-color: #597718;
+        color: #f2f2f2;
+    }
+    
+    .carrito-button {
+        background-color: #b4000f;
+        color: #f2f2f2;
+    }
+    
+    .desc-button:hover {
+        cursor: pointer;
+        box-shadow: 0 2px 4px 0 rgb(0,0,0,45%)
+    }
+    
+    .carrito-button:hover {
+        cursor: pointer;
+        box-shadow: 0 2px 4px 0 rgb(0,0,0,45%)
+    }
+    
+}
+
+@media (min-width: 768px) {
+
+    .banner-section {
+        width: 100vw;
+        height: 50vh;
+        background-image: url('https://i.postimg.cc/dtshp57h/pizza.jpg');
+        background-size: cover;
+    }
+    
+    .menu-section {
+        width: 100vw;
+        height: 260vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #c0c7c324;
+    }
+    
+    .menu-section-div {
+        width: 80vw;
+        height: 230vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2vh;
+        
+    }
+    
+    /* Cards de pizzas*/
+    
+    .pizza-card {
+        width: 270px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;    
+        border-radius: 25px;
+        border: 1px solid rgb(0,0,0,45%);
+        background-color: #f3f3f3;
+    }
+    
+    .pizza-img {
+        width: 155px;
+        height: 170px;
+        background-size: cover;
+        background-position: no-repeat;
+        border-radius: 25px;
+        text-align: center;
+    }
+    
+    .pizza-info {
+        width: 245px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .pizza-buttons {
+        width: 245px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .desc-button, .carrito-button {
+        width: 245px;
+        height: 45px;
+        border-radius: 25px;
+        box-shadow: 0 2px 4px 0 rgb(0,0,0,15%);  
+        border: 1px solid rgb(0,0,0,15%);
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .desc-button {
+        background-color: #597718;
+        color: #f2f2f2;
+    }
+    
+    .carrito-button {
+        background-color: #b4000f;
+        color: #f2f2f2;
+    }
+    
+    .desc-button:hover {
+        cursor: pointer;
+        box-shadow: 0 2px 4px 0 rgb(0,0,0,45%)
+    }
+    
+    .carrito-button:hover {
+        cursor: pointer;
+        box-shadow: 0 2px 4px 0 rgb(0,0,0,45%)
+    }
+    
+    
+
+}
+
+@media (min-width: 1200px) {
+
+    .banner-section {
+        width: 100vw;
+        height: 50vh;
+        background-image: url('https://i.postimg.cc/dtshp57h/pizza.jpg');
+        background-size: auto 100%;
+    }
+    
+    .menu-section {
+        width: 100vw;
+        height: 160vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #c0c7c324;
+    }
+    
+    .menu-section-div {
+        width: 80vw;
+        height: 128vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 4vh;
+        
+    }
+    
+    /* Cards de pizzas*/
+    
+    .pizza-card {
+        width: 340px;
+        height: 440px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;    
+        border-radius: 25px;
+        border: 1px solid rgb(0,0,0,45%);
+        background-color: #f3f3f3;
+    }
+    
+    .pizza-img {
+        width: 255px;
+        height: 185px;
+        background-size: cover;
+        background-position: no-repeat;
+        border-radius: 25px;
+        text-align: center;
+    }
+    
+    .pizza-info {
+        width: 245px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .pizza-buttons {
+        width: 245px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .desc-button, .carrito-button {
+        width: 245px;
+        height: 45px;
+        border-radius: 25px;
+        box-shadow: 0 2px 4px 0 rgb(0,0,0,15%);  
+        border: 1px solid rgb(0,0,0,15%);
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .desc-button {
+        background-color: #597718;
+        color: #f2f2f2;
+    }
+    
+    .carrito-button {
+        background-color: #b4000f;
+        color: #f2f2f2;
+    }
+    
+    .desc-button:hover {
+        cursor: pointer;
+        box-shadow: 0 2px 4px 0 rgb(0,0,0,45%)
+    }
+    
+    .carrito-button:hover {
+        cursor: pointer;
+        box-shadow: 0 2px 4px 0 rgb(0,0,0,45%)
+    }
+    
+    
+
+}
+
